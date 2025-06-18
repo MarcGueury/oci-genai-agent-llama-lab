@@ -51,7 +51,7 @@ For the fans of APEX, check the APEX Builder URL and the User/Password at the en
 
 ## END
 
-Congratulation you have finished the lab !!
+Congratulation ! You have finished the lab !!
 We hope that you learned something useful.
 
 ## Known issues

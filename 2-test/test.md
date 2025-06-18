@@ -132,7 +132,7 @@ Go back to the agents:
 1. Click on *Agents*.
 1. Click on the agent name (ex: *llama-agent*) 
 1. Click *Launch Chat*
-1. Type the question *Get the 10 first tickets that have a description containing cloud*
+1. Type the question *Get the tickets that have a description containing cloud*
     ![test SQL](images/llama-console-test-sql.png)   
 1. Check the trace
     ![trace SQL](images/llama-console-trace-sql.png)   
@@ -146,12 +146,26 @@ Go back to the agents:
 1. You will see that it asks for an answer. It is expected. The API is defined like a client API tool that will be executed in the Python app.
 1. Close the chat.
 
-## Task 6 - Test in Streamlit
+## Task 6 - Test in React
 
-In the output of the installation of last lab, you got an streamlit URL. Go to it.
+In the output of the installation of last lab, you got an React URL. Go to it.
+ex: http://12.23.56.78
+
+1. Type the question *Get the tickets that have a description containing cloud*
+    ![test SQL](images/llama-react-sql.png)   
+1. Type the question *What is the importance of Virus and Intrusion Detection*
+    ![test RAG](images/llama-react-rag.png)   
+1. Type the question *Get the ticket 1054*
+    ![test diagram](images/llama-react-diagram1.png)   
+1. Type the question *Draw a diagram of ticket 1054*
+    ![test diagram](images/llama-react-diagram2.png)   
+
+## Task 7 - Test in Streamlit
+
+In the output of the installation of last lab, you got an Streamlit URL. Go to it.
 ex: http://12.23.56.78:8080
 
-1. Type the question *Get the 10 first tickets that have a description containing cloud*
+1. Type the question *Get the tickets that have a description containing cloud*
     ![test SQL](images/llama-streamlit-sql.png)   
 1. Type the question *What is the importance of Virus and Intrusion Detection*
     ![test RAG](images/llama-streamlit-rag.png)   
