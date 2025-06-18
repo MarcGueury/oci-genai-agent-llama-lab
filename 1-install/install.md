@@ -127,7 +127,7 @@ You can
 7. Run each of the three commands below in the Terminal, one at a time. It will run Terraform to create the rest of the components.
     ```
     <copy>
-    cd oci-genai-agent-llama/starter/
+    cd oci-genai-agent-llama
     </copy>
     ```
    

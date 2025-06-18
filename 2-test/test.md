@@ -26,7 +26,7 @@ Let's look at what has been installed.
 1. Click on *SQL Tool*. Then *Edit*. Check the SQL Tool definition. Then press *Cancel*.
     ![SQL](images/llama-sql-tool.png)    
     As you can see there is the definition of the tables and the description of the columns.
-1. Click on *RAG Tool*. Then *Edit*. Check the SQL Tool definition. Then press *Cancel*.
+1. Click on *RAG Tool*. Then *Edit*. Check the RAG Tool definition. Then press *Cancel*.
     ![RAG](images/llama-rag-tool.png)    
 1. Click on *Diagram Tool*. Then *Edit*. Check the Diagram Tool definition. Then press *Cancel*.
     ![Diagram](images/llama-diagram-tool.png)    
