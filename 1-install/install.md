@@ -137,7 +137,12 @@ You can
     </copy>
     ````
 
-    Answer the question about Compartment OCID.
+    Answer the question about Compartment OCID and Vault OCID.
+
+    The script will ask to create or reuse:
+    - a Vault (to store encryption keys) 
+    - and a Compartment is asked for. 
+    For both, it is a better idea to create one or reuse an existing one. But if you have none, the script will just create them.  
 
     In case of errors, check **Known Issues** below
 
@@ -266,7 +271,7 @@ You can
 ## Acknowledgements
 
 - **Author**
-    - Marc Gueury, Generative AI Specialist
-    - Anshuman Panda, Generative AI Specialist
-    - Maurits Dijkens, Generative AI Specialist
-
+    - Marc Gueury, Oracle Generative AI Platform
+    - Omar Salem, Oracle Generative AI Platform
+    - Ras Alungei, Oracle Generative AI Platform
+    - Anshuman Panda, Oracle Generative AI Platform

@@ -63,5 +63,5 @@ None
 - **Author**
     - Marc Gueury, Oracle Generative AI Platform
     - Omar Salem, Oracle Generative AI Platform
+    - Ras Alungei, Oracle Generative AI Platform
     - Anshuman Panda, Oracle Generative AI Platform
-

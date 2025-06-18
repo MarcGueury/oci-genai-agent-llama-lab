@@ -155,17 +155,17 @@ ex: http://12.23.56.78
     ![test SQL](images/llama-react-sql.png)   
 1. Type the question *What is the importance of Virus and Intrusion Detection*
     ![test RAG](images/llama-react-rag.png)   
-1. Type the question *Get the ticket 1054*
+1. Type the question *Get the ticket 8*
     ![test diagram](images/llama-react-diagram1.png)   
-1. Type the question *Draw a diagram of ticket 1054*
+1. Type the question *Draw a diagram of ticket 8*
     ![test diagram](images/llama-react-diagram2.png)   
 
-## Task 7 - Test in Streamlit
+## Task 7 - (Optional) Test in Streamlit
 
 In the output of the installation of last lab, you got an Streamlit URL. Go to it.
 ex: http://12.23.56.78:8080
 
-1. Type the question *Get the tickets that have a description containing cloud*
+1. Type the question *Get the 10 first tickets that have a description containing cloud*
     ![test SQL](images/llama-streamlit-sql.png)   
 1. Type the question *What is the importance of Virus and Intrusion Detection*
     ![test RAG](images/llama-streamlit-rag.png)   
@@ -185,4 +185,5 @@ None
 - **Author**
     - Marc Gueury, Oracle Generative AI Platform
     - Omar Salem, Oracle Generative AI Platform
+    - Ras Alungei, Oracle Generative AI Platform
     - Anshuman Panda, Oracle Generative AI Platform
