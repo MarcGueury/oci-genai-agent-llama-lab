@@ -1,11 +1,10 @@
-
 # Introduction
 
 ## About This Workshop
-In this workshop, we will use Meta Llama with Oracle Generative AI Agent RAG. 
+In this workshop, we will use Meta Llama with Oracle Generative AI Agent. 
 The sample will show to:
 - OCI Generative AI Agent 
-- Meta model being called explicitly and implicitly in the chat conversation. 
+- Meta Llama used in several parts of the chat conversation. 
 
 Scenario. The agent will have access 
 - to a list of *Tickets* from *Customers* 

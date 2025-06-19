@@ -1,7 +1,7 @@
 # Install the Components
 
 ## Introduction
-In this lab, you will install all the components needed for this workshop. Oracle Digital Assistant will be provisioned manually. The rest will be provisioned automatically using a provided Terraform script.
+In this lab, you will install all the components needed for this workshop. It will be provisioned automatically using a provided Terraform script.
 
 Estimated time: 45 min
 
@@ -267,6 +267,31 @@ You can
    
     Solution:
     - Ask your administrator to increase your quota or the limits of the tenancy.
+
+6. 404-NotAuthorizedOrNotFound in Createsecret.
+
+    ```
+    Error: 404-NotAuthorizedOrNotFound, Authorization failed or requested resource not found.
+    Suggestion: Either the resource has been deleted or service Vault secret need policy to access this resource. Policy reference: https://docs.oracle.com/en-us/iaas/Content/Identity/Reference/po
+    Documentation: https://registry.terraform.io/providers/oracle/oci/latest/docs/resources/vault_secret
+    API
+    Reference: https://docs.oracle.com/iaas/api/=/en/secretmgmt/20180608/Secret/CreateSecret
+    Request Target: POST https://vaults.us-chicago-1.oci.oraclecloud.com/20180608/secrets
+    Provider version: 7.4.0, released on 2025-06-08. This provider is 1 Update(s) behind to current.
+    Service: Vault Secret
+    Operation Name: Createsecret
+    with oci_vault_secret.starter_secret_atp,
+    on db_connection.tf line 45, in resource "oci_vault_secret" "starter_secret_atp":
+    45: resource "oci_vault_secret" "starter_secret_atp"
+    ```
+
+    You have no access to the vault.
+
+    Solution: 
+    - Ask your administrator to give you access to your vault. Ex: add this policy
+        ```
+        allow group OracleIdentityCloudService/specialists to use secret-family in compartment xxxxx-shared
+        ```
 
 ## Acknowledgements
 
