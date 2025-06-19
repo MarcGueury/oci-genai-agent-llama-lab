@@ -292,6 +292,7 @@ You can
         ```
         allow group OracleIdentityCloudService/specialists to use secret-family in compartment xxxxx-shared
         ```
+    - Check that the installation is done in the same region than the Vault.
 
 ## Acknowledgements
 
