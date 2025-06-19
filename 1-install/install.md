@@ -12,17 +12,17 @@ Estimated time: 45 min
 ### Prerequisites
 
 - An OCI Account with sufficient credits where you will perform the lab. (Some of the services used in this lab are not part of the *Always Free* program.)
-- Check that your tenancy has access to the **Frankfurt or London or Chicago Region**
+- Check that your tenancy has access to the **Frankfurt, London or Chicago Region**
     - For Paid Tenancy
         - Click on region on top of the screen
-        - Check that the Frankfurt or London or Chicago Region is there
+        - Check that the Frankfurt, London or Chicago Region is there
         - If not, Click on Manage Regions to add it to your regions list. You need Tenancy Admin right for this.
         - For ex, click on the US MidWest (Chicago)
         - Click Subscribe
 
     ![Chicago Region](images/chicago-region.png)
 
-    - For Free Trial, the HOME region should be Frankfurt or London or Chicago.
+    - For Free Trial, the HOME region should be Frankfurt, London or Chicago.
 - The lab is using Cloud Shell with Public Network.
 
     The lab assume that you have access to **OCI Cloud Shell with Public Network access**.
