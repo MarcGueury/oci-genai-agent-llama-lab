@@ -6,6 +6,13 @@ Estimated time: 10 min
 
 ### Objectives
 
+**AI Eval** is built with APEX, a low-code development tool comes with Oracle Database.
+- The *Question/Answer* table is stored in 23ai vector.
+- When running a test, it will send all the questions to AI Agent 
+- Then compare the API *Response* with the *expected Answer* using Llama.
+- Giving a score of 0 to 100.
+
+During the lab, we will:
 - Test the quality of the AI Agent
 - The APEX app is using LLama and a prompt to compare the result of Agent with the expected responses stored in the database.
 
@@ -39,6 +46,7 @@ Estimated time: 10 min
 
 For the fans of APEX, check the APEX Builder URL and the User/Password at the end of the build log.
 1. Go to the url of the application (ex: https://abcdefghijklmnop.apigateway.eu-frankfurt-1.oci.customer-oci.com/ords/_/landing)
+1. You will see the REST Data Services page. Click *Go* button under Oracle APEX.
 1. Login as APEX\_APP / APEX\_APP / YOUR\_PASSWORD
     ![run](images/llama-apex-builder-login.png) 
 1. In the APEX Builder, click *App Builder*

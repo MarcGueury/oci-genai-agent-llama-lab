@@ -1,12 +1,16 @@
-# Evaluate
+# Explore and Test
 
 ## Introduction
-In this lab, we will test the installation using StreamLit
+In this lab, we will explore and test the installation.
 Estimated time: 10 min
 
 ### Objectives
 
-- Test the program using a StreamLit user interface.
+- Explore what has been installed 
+- Test using the OCI Console
+- Test using an user interface
+
+For more information about the OCI Generative agent. Go [here](https://docs.oracle.com/en-us/iaas/Content/generative-ai-agents/overview.htm).
 
 ### Prerequisites
 - The lab 1 must have been completed.
@@ -33,7 +37,13 @@ Let's look at what has been installed.
 
 ## Task 2: Explore - SQL Tool in details 
 
-The SQL tool relies on an Autonomous database and database connection using a user/password stored in a Vault. Let's check this.
+The SQL tool relies on an Autonomous database and database connection using a user/password stored in a Vault. 
+
+In the test below, you will ask *Get the tickets that have a description containing cloud*. The agent detects the use case using llm and determine to trigger SQL Tool for providing response. SQL Tool converts natural language queries into SQL statements and can run the SQL commands to generate responses against the connected 23ai vector database.
+
+Let's check this.
+
+For more information about the SQL Tools. Go [here](https://docs.oracle.com/en-us/iaas/Content/generative-ai-agents/sql-tool.htm#sql-tool).
 
 #### Autonomous Database
 1. Go to the OCI Menu, go to *Oracle Database* - *Autonomous Database*
@@ -60,7 +70,16 @@ The SQL tool relies on an Autonomous database and database connection using a us
 
 ## Task 3: Explore - RAG tool in details
 
-The RAG tool allows to search inside documents. It stores its documents in a Storage Bucket and ingest them in a Knowledge Base. Let's check this.
+The RAG tool allows to search inside documents. It stores its documents in a Storage Bucket and ingest them in a Knowledge Base.
+
+In the test below, you will ask *What is the importance of Virus and Intrusion Detection*. The agent detects the use case using llm and determine to trigger RAG Tool and your documents (PDF,...) for providing response. RAG Tool:
+- Converts the natural language query into a vector that has a semantic meaning. 
+- Using this vector, it will find the documents that speak about the same topic
+- And then generate a final response.
+
+Let's check this.
+
+For more information about the RAG Tools. Go [here](https://docs.oracle.com/en-us/iaas/Content/generative-ai-agents/RAG-tool.htm#RAG-tool).
 
 #### Bucket
 1. Go to the OCI Menu, go to *Storage* - *Bucket*
@@ -87,17 +106,17 @@ The RAG tool allows to search inside documents. It stores its documents in a Sto
 
 ## Task 4: Explore - Diagram tool in details
 
-The diagram tool and the streamlit are written in python code.
-- The streamlit application is the User Interface.
-- The diagram tool:  
-    - creates a python program on the fly using Llama
-    - This program generates a graphic.
-    - Then, it is shown to the end-user
+The diagram tool is written in python code. In the test below, you will ask **Draw a diagram*. The agent detects the use case using llm and determine to trigger Diagram Tool. It will:
+- Creates a python program on the fly using Llama
+- Run this program that will generate an image with a diagram.
+- Show the image to the end-user
+
+For more information about the Custom Tools. Go [here](https://docs.oracle.com/en-us/iaas/Content/generative-ai-agents/function-calling-tool.htm).
 
 #### Compute
 1. Go to the OCI Menu, go to *Compute* - *Instance*
     ![menu Compute](images/llama-menu-compute.png)   
-1. Click on the bucket name, typically *llama-compute*
+1. Click on the Compute name, typically *llama-compute*
 1. The compute is a virtual machine running the python code.
     ![Compute](images/llama-compute.png)   
 

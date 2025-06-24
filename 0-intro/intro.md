@@ -1,7 +1,13 @@
 # Introduction
 
 ## About This Workshop
-In this workshop, we will use Meta Llama with Oracle Generative AI Agent. 
+In this workshop, we will use Meta Llama with Oracle OCI Generative AI Agent. 
+
+OCI Generative AI Agents combines the power of large language models (LLMs) and retrieval-augmented generation (RAG) with your enterprise data, letting users query diverse enterprise knowledge bases. The service provides up-to-date information through a natural language interface and the ability to act directly on it. The comes with the tools that agents need to address common enterprise requirements:
+- **Natural language SQL generation**: This natural language to SQL (NL2SQL) tool lets users interact with structured enterprise data by enabling data retrieval and analysis using natural language queries. Now nterprise users can get answers to their data-related questions.
+- **Retrieval-augmented generation (RAG)**: Our RAG tool lets agents dynamically pull data from unstructured sources, improving response accuracy and contextual depth. By integrating RAG within an agent, your experts can provide users with easy access to relevant, high-quality information in real time.
+- **Custom Tools**
+
 The sample will show to:
 - OCI Generative AI Agent 
 - Meta Llama used in several parts of the chat conversation. 
@@ -12,10 +18,7 @@ Scenario. The agent will have access
 
 The data of these Customers/Tickets/SupportAgents will stored in an Oracle Database 23ai.
 
-The user will be able to ask questions:
-- about the tickets stored in the database (using SQL)
-- about a Knowledge base of PDFs (using RAG) 
-- and generate graphical diagrams of the SRs (using Code Generation)
+The user will be able to ask questions about the tickets stored in the database **(using SQL)**, about a Knowledge base of PDFs **(using RAG)**, and generate graphical diagrams of the SRs **(using Code Generation)**
 
 The installation uses Terraform.
 
