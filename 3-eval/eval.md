@@ -6,10 +6,10 @@ Estimated time: 10 min
 
 ### Objectives
 
-**AI Eval** is built with APEX, a low-code development tool comes with Oracle Database.
+To evaluate the quality of the response of the Agent, we will use an application **AI Eval**. It is built with APEX, a low-code development tool, that comes with Oracle Database. It works like this:
 - The *Question/Answer* table is stored in 23ai vector.
-- When running a test, it will send all the questions to AI Agent 
-- Then compare the API *Response* with the *expected Answer* using Llama.
+- When running a test, it will send all the questions to AI Agent API
+- Then compare the AI Agent API *Response* with the *expected Answer* using Llama.
 - Giving a score of 0 to 100.
 
 During the lab, we will:
